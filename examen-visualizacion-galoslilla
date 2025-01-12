@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {"id": "Estudiante 1", "group": 1},
+    {"id": "Guillermo Alosilla", "group": 1},
+    {"id": "Estudiante 3", "group": 1},
+    {"id": "Estudiante 4", "group": 1},
+    {"id": "Química", "group": 2},
+    {"id": "Física", "group": 2},
+    {"id": "Geometría", "group": 3},
+    {"id": "Matemáticas", "group": 3}
+  ],
+  "links": [
+    {"source": "Estudiante 1", "target": "Química"},
+    {"source": "Guillermo Alosilla", "target": "Física"},
+    {"source": "Estudiante 3", "target": "Geometría"},
+    {"source": "Estudiante 3", "target": "Matemáticas"},
+    {"source": "Estudiante 4", "target": "Química"},
+    {"source": "Guillermo Alosilla", "target": "Matemáticas"}
+  ]
+}
